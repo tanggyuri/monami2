@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+
+.sub_banner {
+    background: url(../imgs/visual2.jpg) no-repeat center;
+    width: 100%;
+    height: 340px;
+}
+
+.customers {
+    padding-top: 100px;
+    font-size: 2.5rem;
+}
+
+.support {
+    font-size: 1.5rem;
+    padding-top: 8px;
+}
+
+.sub_banner  {
+    text-align: center;
+    color: rgb(235, 232, 232);
+}
+
+/* ------------------------------- */
+
+.nvt {
+    margin: -23px auto;
+    max-width: 1400px;
+    margin-bottom: 50px;
+}
+
+.nvt li {
+    background: #fff;
+}
+
+.nvt li a {
+    border-bottom: none;
+}
+
+.nav-tabs.nav-justified>li>a {
+    border-bottom: none;
+    border: 1px solid rgb(233, 231, 231);
+}
+
+/* ----------------------------- */
+
+.faq h1 {
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+/* ----------------------------------- */
+.monami_map {
+    max-width: 1400px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 100px;
+}
+
+.map_inpo {
+    display: flex;
+}
+
+.map_text {
+    background: #363636;
+    width: 500px;
+    padding: 40px 45px;
+}
+
+.text_inpo {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.text_inpo h4{
+    color: #ccc;
+}
+
+.address {
+    display: flex;
+}
+
+.address h4{
+    color: #ccc;
+    padding-right: 30px;
+}
+.address h5{
+    color: #ccc;
+}
+
+.tel {
+    display: flex;
+}
+
+.tel h4 {
+    color: #ccc;
+    padding-right: 77px;
+}
+.tel h5 {
+    color: #ccc;
+}
+
+.sub_img {
+    margin: -25px;
+    margin-top: 20px;
+}

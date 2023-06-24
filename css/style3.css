@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Lexend+Peta&display=swap');
+
+.sub_banner {
+    background: url(../imgs/page_visual.jpg) no-repeat center;
+    width: 100%;
+    height: 340px;
+}
+
+.customers {
+    padding-top: 100px;
+    font-size: 2.5rem;
+}
+
+.support {
+    font-size: 1.5rem;
+    padding-top: 8px;
+}
+
+.sub_banner  {
+    text-align: center;
+    color: rgb(235, 232, 232);
+}
+/* ------------------------------- */
+
+.nvt {
+    margin: -23px auto;
+    max-width: 1400px;
+    margin-bottom: 50px;
+}
+
+.nvt li {
+    background: #fff;
+}
+
+.nvt li a {
+    border-bottom: none;
+}
+
+.nav-tabs.nav-justified>li>a {
+    border-bottom: none;
+    border: 1px solid rgb(233, 231, 231);
+}
+
+/* ----------------------------- */
+
+.faq h1 {
+    text-align: center;
+    font-family: 'Lexend Peta', sans-serif;
+}
+
+/* ------------------------------ */
+
+.panel-wrap {
+    margin-top: 50px;
+    margin-bottom: 150px;
+}
+
+.panel-group {
+    max-width: 1400px;
+    margin: 0 auto;
+    /* margin-top: 50px; */
+    margin-bottom: 10px;
+}
+
+.panel-heading {
+    height: 70px;
+    position: relative;
+}
+
+.panel-title {
+    padding-top: 12px;
+    display: flex;
+    cursor: pointer;
+}
+
+.panel_a {
+    padding-top: 7px;
+}
+
+.qna {
+    font-size: 3.0rem;
+    padding: 0 50px 0 30px;
+}
+
+.fa-chevron-down {
+    position: absolute;
+    font-size: 25px;
+    top: 23px;
+    right: 43px;
+}
+
+/* .fa-arrow-down:hover {
+    font-size: 28px;
+    transition: all 0.3s;
+} */

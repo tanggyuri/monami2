@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MONAMI</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/nomalize.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/style2.css">
+    <!-- <link rel="stylesheet" href="css/style4.css"> -->
+    <link rel="stylesheet" href="css/style5.css">
+    
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script>
+      $(function(){
+        $("ul > li").hover (
+          function(){
+            $(this).find(".sub").slideDown(300);
+            $(this).children("a").addClass("over");
+          },
+          function(){
+            $(this).find(".sub").slideUp(300);
+            $(this).children("a").removeClass("over");
+          },
+        )
+      });
+    </script>
+  </head>
+  <body id="home" data-spy="scroll" data-target="#navbar-scroll" data-offset="50">
+        <div class="container-fluid">
+          <div class="container">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar-scroll">
+              <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html"><img class="logomo" src="./imgs/img.jpg" alt=""</a>
+                </div>
+    
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-1-collapse b1">
+                  <ul class="nav navbar-nav">
+                    <li>
+                      <a href="map.html">모나미 소개 </a>
+                      <ul class="sub">
+                        <li><a href="#">CEO 메세지</a></li>
+                        <li><a href="#">회사정보</a></li>
+                        <li><a href="#">회사연혁</a></li>
+                        <li><a href="#">윤리강령</a></li>
+                        <li><a href="#">투자정보</a></li>
+                        <li><a href="#">CI</a></li>
+                        <li><a href="#">채용정보</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="product.html">모나미 제품 </a>
+                      <ul class="sub">
+                        <li><a href="product.html">펜</a></li>
+                        <li><a href="product.html">마카</a></li>
+                        <li><a href="product.html">형광펜</a></li>
+                        <li><a href="product.html">만년필</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#portfolio" class="newvi">NEW & VIDEO </a>
+                      <ul class="sub">
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">동영상자료</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#contact">모나미 미술 </a>
+                      <ul class="sub">
+                        <li><a href="#">sub11</a></li>
+                        <li><a href="#">sub12</a></li>
+                        <li><a href="#">sub13</a></li>
+                        <li><a href="#">sub14</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="QnA.html">고객 지원 </a>
+                      <ul class="sub">
+                        <li><a href="QnA.html">자주묻는질문</a></li>
+                        <li><a href="QnA.html">문의하기</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /.navbar-collapse -->
+            </nav>
+          </div>
+          
+          <div>
+            <div class="sub_banner">
+                <p class="customers">모나미제품</p>
+                <div class="line"></div>
+                <p class="support">모나미는 당신의 행복한 기록과 늘 함께 합니다.</p>
+            </div>
+
+            <div class="clearfix"></div>
+            <!-- <h4>탭형 네비게이션 양쪽 정렬</h4> -->
+            <ul class="nav nav-tabs nav-justified nvt">
+            <li><a href="#">펜</a></li>
+            <li><a href="#">마카</a></li>
+            <li><a href="#">형광펜</a></li>
+            <li><a href="#">미술용품</a></li>
+            <li><a href="#">기타</a></li>
+            <li><a href="#">카탈로그</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="faq">
+                <h1>PRODUCT INFO</h1>
+                <div class="line"></div>
+            </div>
+          </div>
+
+          <div class="product_wrap">
+            <div class="product_inpo">
+                <div class="inpo_bg"></div>
+                <div class="numbers">
+                    <span class="number">01</span>
+                    <span>/04</span>
+                </div>
+                <div class="main_img">
+                    <div class="big_img">
+                    <a href="">
+                        <img src="./imgs/product_inpo.jpg" alt="">
+                    </a>
+                    </div>
+                    <!-- <div>
+                        <p>썸네일사진넣기</p>
+                    </div> -->
+                </div>
+                <div class="inpo_title">
+                    <div class="top_inpo">
+                        <h2>153 아이디 만년필</h2>
+                        <div class="line2"></div>
+                        <p>만년필</p>
+                    </div>
+
+                    <div class="inpo_ex">
+                        <div class="features">
+                            <h5 class="main_tit">KEY FEATURES</h5>
+                            <p>- 153ID 시그니처 느낌을 강조한 슬림하고 심플한 디자인의 EF촉 만년필</p>
+                            <p>- 금속 재질의 캡과 배럴로 고급스러움 강조한 디자인</p>
+                            <p>- 필기 시 뒤로 쏠리는 현상을 최소화한 저중심 무게구조 적용</p>
+                        </div>
+
+                        <div class="body_color">
+                            <h5 class="main_tit">BODY COLOR</h5>
+                            <div>
+                                <img src="./imgs/bodycolor.jpg" alt="">
+                                <img src="./imgs/bodycolor2.jpg" alt="">
+                                <img src="./imgs/bodycolor3.jpg" alt="">
+                            </div>
+                        </div>
+
+                        <div class="size">
+                            <h5 class="main_tit">POINT SIZE</h5>
+                            <p>EF</p>
+                        </div>
+
+                        <div class="down">
+                            <h5 class="main_tit">DOWNLOAD</h5>
+                            <div class="download">
+                                <a><img src="./imgs/download.gif" alt="">셀시트</a>
+                                <a><img src="./imgs/download2.gif" alt="">제품상세</a>
+                                <a><img src="./imgs/download3.gif" alt="">이미지</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="list">
+                <a href="product.html">LIST</a>
+            </div>
+          </div>
+
+          
+
+
+            <footer>
+              <div class="foot">
+                <div class="foot_top">
+                  <a href="#">
+                    <img src="./imgs/foot_logo.jpg" alt="">
+                  </a>
+                    <div>
+                    
+                      <a class="footint">회사소개</a>
+                      <a class="footint">개인정보방침</a>
+                      <a class="footint">이메일무단수집거부</a>
+                    
+                  </div>
+                </div>
+                <div class="line4"></div>
+
+                <div class="foot_btm">
+                  <div class="info">
+                    <div class="tit">
+                      INFO
+                    </div>
+                    <p>ADDRESS : 경기도 용인시 수지구 손곡로 17  TEL : 031-216-0153  FAX : 031-270-5154</p>
+                    <p>COPYRIGHT(C) 2017 MONAMI.CO.,LTD. ALL RIGHTS RESERVED.</p>
+                  </div>
+                  <div class="customer">
+                    <p class="center">CUSTOMER CENTER</p>
+                    <p class="tel">000-000-0000</p>
+                  </div>
+                  
+                  <div class="btn-group dropup family" >
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">FAMILY SITE <span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">모나미몰</a></li>
+                      <li><a href="#">모나르떼</a></li>
+                      <li><a href="#">모나미 컨셉스토어</a></li>
+                      <li><a href="#">주식회사 항소</a></li>
+                      <li><a href="#">모나미 스테이션</a></li>
+                      <li><a href="#">모나미 미술대회</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </footer>
+
+        </div>
+    
+
+      
+  </body>
+</html>

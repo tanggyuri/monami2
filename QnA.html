@@ -1,0 +1,426 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MONAMI</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/nomalize.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/style2.css">
+    <link rel="stylesheet" href="css/style3.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script>
+      $(function(){
+        $("ul > li").hover (
+          function(){
+            $(this).find(".sub").slideDown(300);
+            $(this).children("a").addClass("over");
+          },
+          function(){
+            $(this).find(".sub").slideUp(300);
+            $(this).children("a").removeClass("over");
+          },
+        )
+      });
+    </script>
+  </head>
+  <body id="home" data-spy="scroll" data-target="#navbar-scroll" data-offset="50">
+        <div class="container-fluid">
+          <div class="container">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar-scroll">
+              <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="index.html"><img class="logomo" src="./imgs/img.jpg" alt=""</a>
+                </div>
+    
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-1-collapse b1">
+                  <ul class="nav navbar-nav">
+                    <li>
+                      <a href="map.html">모나미 소개 </a>
+                      <ul class="sub">
+                        <li><a href="#">CEO 메세지</a></li>
+                        <li><a href="#">회사정보</a></li>
+                        <li><a href="#">회사연혁</a></li>
+                        <li><a href="#">윤리강령</a></li>
+                        <li><a href="#">투자정보</a></li>
+                        <li><a href="#">CI</a></li>
+                        <li><a href="#">채용정보</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="product.html">모나미 제품 </a>
+                      <ul class="sub">
+                        <li><a href="product.html">펜</a></li>
+                        <li><a href="product.html">마카</a></li>
+                        <li><a href="product.html">형광펜</a></li>
+                        <li><a href="product.html">만년필</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#portfolio" class="newvi">NEW & VIDEO </a>
+                      <ul class="sub">
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">동영상자료</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#contact">모나미 미술 </a>
+                      <ul class="sub">
+                        <li><a href="#">sub11</a></li>
+                        <li><a href="#">sub12</a></li>
+                        <li><a href="#">sub13</a></li>
+                        <li><a href="#">sub14</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#contact">고객 지원 </a>
+                      <ul class="sub">
+                        <li><a href="#">자주묻는질문</a></li>
+                        <li><a href="#">문의하기</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /.navbar-collapse -->
+            </nav>
+          </div>
+          
+          <div>
+            <div class="sub_banner">
+                <p class="customers">고객지원</p>
+                <div class="line"></div>
+                <p class="support">모나미는 언제나 소중한 의견에 귀 기울이겠습니다.</p>
+            </div>
+
+            <div class="clearfix"></div>
+            <!-- <h4>탭형 네비게이션 양쪽 정렬</h4> -->
+            <ul class="nav nav-tabs nav-justified nvt">
+            <li><a href="#">자주하는질문</a></li>
+            <li><a href="#">문의하기</a></li>
+            <li><a href="#">이벤트</a></li>
+            </ul>
+          </div>
+
+          <div>
+            <div class="faq">
+                <h1>MONAMI FAQ</h1>
+                <div class="line"></div>
+            </div>
+          </div>
+
+          <div class="panel-wrap">
+            <div class="panel-group" id="accordion">
+                <div class="panel panel-default">
+                  <div class="panel-heading" >
+                    <h4 class="panel-title" a href="#collapseOne" data-toggle="collapse">
+                      <span class="qna">Q</span>
+                      <a href="#collapseOne" data-toggle="collapse" data-parent="accordion" class="panel_a">대량 구매 문의?</a>
+                      <i class="fa-solid fa-chevron-down"></i>
+                    </h4>
+                  </div>
+                  <div id="collapseOne" class="panel-collapse collapse in">
+                    <div class="panel-body">
+                      Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi consequuntur labore temporibus inventore atque fugiat pariatur quam at praesentium dignissimos amet distinctio culpa sint quas dolore sequi, reprehenderit dolor esse
+                      ullam? Unde atque mollitia quasi recusandae iusto deleniti perferendis in qui omnis eaque, quaerat ratione ullam nesciunt rem facilis aliquid dolor? Laudantium tenetur doloribus quasi blanditiis. Ratione perspiciatis culpa repudiandae
+                      ea repellendus deleniti ipsum deserunt, sit quis quisquam iusto laborum distinctio, magnam totam id amet excepturi quas doloremque eaque architecto dicta eum perferendis. Earum sed dicta expedita distinctio deleniti porro et quia
+                      ducimus! Quisquam quae blanditiis labore quaerat reprehenderit hic harum dolore saepe consectetur laudantium molestiae, quibusdam consequatur? Quo illo cumque aperiam iste voluptatibus voluptatem provident, quidem, temporibus eius
+                      officiis et deserunt at dolorum? Et iste laborum facere consequatur delectus! Similique a fuga saepe laborum ea voluptas maiores iusto, nostrum molestiae, corrupti perspiciatis eaque libero nulla ut asperiores ab!
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title" a href="#collapseOne1" data-toggle="collapse">
+                    <span class="qna">Q</span>
+                    <a href="#collapseOne1" data-toggle="collapse" data-parent="accordion"  class="panel_a">콜라보레이션 문의?</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </h4>
+                </div>
+                <div id="collapseOne1" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi consequuntur labore temporibus inventore atque fugiat pariatur quam at praesentium dignissimos amet distinctio culpa sint quas dolore sequi, reprehenderit dolor esse
+                    ullam? Unde atque mollitia quasi recusandae iusto deleniti perferendis in qui omnis eaque, quaerat ratione ullam nesciunt rem facilis aliquid dolor? Laudantium tenetur doloribus quasi blanditiis. Ratione perspiciatis culpa repudiandae
+                    ea repellendus deleniti ipsum deserunt, sit quis quisquam iusto laborum distinctio, magnam totam id amet excepturi quas doloremque eaque architecto dicta eum perferendis. Earum sed dicta expedita distinctio deleniti porro et quia
+                    ducimus! Quisquam quae blanditiis labore quaerat reprehenderit hic harum dolore saepe consectetur laudantium molestiae, quibusdam consequatur? Quo illo cumque aperiam iste voluptatibus voluptatem provident, quidem, temporibus eius
+                    officiis et deserunt at dolorum? Et iste laborum facere consequatur delectus! Similique a fuga saepe laborum ea voluptas maiores iusto, nostrum molestiae, corrupti perspiciatis eaque libero nulla ut asperiores ab!
+                  </div>
+                </div>
+              </div>
+          </div>
+
+          <div class="panel-group" id="accordion">
+            <div class="panel panel-default">
+              <div class="panel-heading">
+                <h4 class="panel-title" a href="#collapseOne2" data-toggle="collapse">
+                  <span class="qna">Q</span>
+                  <a href="#collapseOne2" data-toggle="collapse" data-parent="accordion"  class="panel_a">판촉용 기업 맞춤 제품 문의?</a>
+                  <i class="fa-solid fa-chevron-down"></i>
+                </h4>
+              </div>
+              <div id="collapseOne2" class="panel-collapse collapse in">
+                <div class="panel-body">
+                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi consequuntur labore temporibus inventore atque fugiat pariatur quam at praesentium dignissimos amet distinctio culpa sint quas dolore sequi, reprehenderit dolor esse
+                  ullam? Unde atque mollitia quasi recusandae iusto deleniti perferendis in qui omnis eaque, quaerat ratione ullam nesciunt rem facilis aliquid dolor? Laudantium tenetur doloribus quasi blanditiis. Ratione perspiciatis culpa repudiandae
+                  ea repellendus deleniti ipsum deserunt, sit quis quisquam iusto laborum distinctio, magnam totam id amet excepturi quas doloremque eaque architecto dicta eum perferendis. Earum sed dicta expedita distinctio deleniti porro et quia
+                  ducimus! Quisquam quae blanditiis labore quaerat reprehenderit hic harum dolore saepe consectetur laudantium molestiae, quibusdam consequatur? Quo illo cumque aperiam iste voluptatibus voluptatem provident, quidem, temporibus eius
+                  officiis et deserunt at dolorum? Et iste laborum facere consequatur delectus! Similique a fuga saepe laborum ea voluptas maiores iusto, nostrum molestiae, corrupti perspiciatis eaque libero nulla ut asperiores ab!
+                </div>
+              </div>
+            </div>
+        </div>
+
+        <div class="panel-group" id="accordion">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title" a href="#collapseOne3" data-toggle="collapse">
+                <span class="qna">Q</span>
+                <a href="#collapseOne3" data-toggle="collapse" data-parent="accordion"  class="panel_a">물질안건보건자료 [MSDS], 유해물질 성적서가 필요해요.</a>
+                <i class="fa-solid fa-chevron-down"></i>
+              </h4>
+            </div>
+            <div id="collapseOne3" class="panel-collapse collapse in">
+              <div class="panel-body">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi consequuntur labore temporibus inventore atque fugiat pariatur quam at praesentium dignissimos amet distinctio culpa sint quas dolore sequi, reprehenderit dolor esse
+                ullam? Unde atque mollitia quasi recusandae iusto deleniti perferendis in qui omnis eaque, quaerat ratione ullam nesciunt rem facilis aliquid dolor? Laudantium tenetur doloribus quasi blanditiis. Ratione perspiciatis culpa repudiandae
+                ea repellendus deleniti ipsum deserunt, sit quis quisquam iusto laborum distinctio, magnam totam id amet excepturi quas doloremque eaque architecto dicta eum perferendis. Earum sed dicta expedita distinctio deleniti porro et quia
+                ducimus! Quisquam quae blanditiis labore quaerat reprehenderit hic harum dolore saepe consectetur laudantium molestiae, quibusdam consequatur? Quo illo cumque aperiam iste voluptatibus voluptatem provident, quidem, temporibus eius
+                officiis et deserunt at dolorum? Et iste laborum facere consequatur delectus! Similique a fuga saepe laborum ea voluptas maiores iusto, nostrum molestiae, corrupti perspiciatis eaque libero nulla ut asperiores ab!
+              </div>
+            </div>
+          </div>
+            </div>
+
+            <div class="panel-group" id="accordion">
+              <div class="panel panel-default">
+                <div class="panel-heading">
+                  <h4 class="panel-title" a href="#collapseOne4" data-toggle="collapse">
+                    <span class="qna">Q</span>
+                    <a href="#collapseOne4" data-toggle="collapse" data-parent="accordion"  class="panel_a">모나미 만년필 사용 / 세척 방법이 궁금해요.</a>
+                    <i class="fa-solid fa-chevron-down"></i>
+                  </h4>
+                </div>
+                <div id="collapseOne4" class="panel-collapse collapse in">
+                  <div class="panel-body">
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi consequuntur labore temporibus inventore atque fugiat pariatur quam at praesentium dignissimos amet distinctio culpa sint quas dolore sequi, reprehenderit dolor esse
+                    ullam? Unde atque mollitia quasi recusandae iusto deleniti perferendis in qui omnis eaque, quaerat ratione ullam nesciunt rem facilis aliquid dolor? Laudantium tenetur doloribus quasi blanditiis. Ratione perspiciatis culpa repudiandae
+                    ea repellendus deleniti ipsum deserunt, sit quis quisquam iusto laborum distinctio, magnam totam id amet excepturi quas doloremque eaque architecto dicta eum perferendis. Earum sed dicta expedita distinctio deleniti porro et quia
+                    ducimus! Quisquam quae blanditiis labore quaerat reprehenderit hic harum dolore saepe consectetur laudantium molestiae, quibusdam consequatur? Quo illo cumque aperiam iste voluptatibus voluptatem provident, quidem, temporibus eius
+                    officiis et deserunt at dolorum? Et iste laborum facere consequatur delectus! Similique a fuga saepe laborum ea voluptas maiores iusto, nostrum molestiae, corrupti perspiciatis eaque libero nulla ut asperiores ab!
+                  </div>
+                </div>
+              </div>
+                </div>
+
+                <div class="panel-group" id="accordion">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title"  a href="#collapseOne5" data-toggle="collapse">
+                        <span class="qna">Q</span>
+                        <a href="#collapseOne5" data-toggle="collapse" data-parent="accordion"  class="panel_a">제조년월이 표시되어 있나요?</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </h4>
+                    </div>
+                    <div id="collapseOne5" class="panel-collapse collapse in">
+                      <div class="panel-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi consequuntur labore temporibus inventore atque fugiat pariatur quam at praesentium dignissimos amet distinctio culpa sint quas dolore sequi, reprehenderit dolor esse
+                        ullam? Unde atque mollitia quasi recusandae iusto deleniti perferendis in qui omnis eaque, quaerat ratione ullam nesciunt rem facilis aliquid dolor? Laudantium tenetur doloribus quasi blanditiis. Ratione perspiciatis culpa repudiandae
+                        ea repellendus deleniti ipsum deserunt, sit quis quisquam iusto laborum distinctio, magnam totam id amet excepturi quas doloremque eaque architecto dicta eum perferendis. Earum sed dicta expedita distinctio deleniti porro et quia
+                        ducimus! Quisquam quae blanditiis labore quaerat reprehenderit hic harum dolore saepe consectetur laudantium molestiae, quibusdam consequatur? Quo illo cumque aperiam iste voluptatibus voluptatem provident, quidem, temporibus eius
+                        officiis et deserunt at dolorum? Et iste laborum facere consequatur delectus! Similique a fuga saepe laborum ea voluptas maiores iusto, nostrum molestiae, corrupti perspiciatis eaque libero nulla ut asperiores ab!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-group" id="accordion">
+                  <div class="panel panel-default">
+                    <div class="panel-heading" >
+                      <h4 class="panel-title"  a href="#collapseOne6" data-toggle="collapse">
+                        <span class="qna">Q</span>
+                        <a href="#collapseOne6" data-toggle="collapse" data-parent="accordion"  class="panel_a">오래 전 구매한 볼펜 필기가 잘 되게 할 수 있는 방법이 있나요?</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </h4>
+                    </div>
+                    <div id="collapseOne6" class="panel-collapse collapse in">
+                      <div class="panel-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi consequuntur labore temporibus inventore atque fugiat pariatur quam at praesentium dignissimos amet distinctio culpa sint quas dolore sequi, reprehenderit dolor esse
+                        ullam? Unde atque mollitia quasi recusandae iusto deleniti perferendis in qui omnis eaque, quaerat ratione ullam nesciunt rem facilis aliquid dolor? Laudantium tenetur doloribus quasi blanditiis. Ratione perspiciatis culpa repudiandae
+                        ea repellendus deleniti ipsum deserunt, sit quis quisquam iusto laborum distinctio, magnam totam id amet excepturi quas doloremque eaque architecto dicta eum perferendis. Earum sed dicta expedita distinctio deleniti porro et quia
+                        ducimus! Quisquam quae blanditiis labore quaerat reprehenderit hic harum dolore saepe consectetur laudantium molestiae, quibusdam consequatur? Quo illo cumque aperiam iste voluptatibus voluptatem provident, quidem, temporibus eius
+                        officiis et deserunt at dolorum? Et iste laborum facere consequatur delectus! Similique a fuga saepe laborum ea voluptas maiores iusto, nostrum molestiae, corrupti perspiciatis eaque libero nulla ut asperiores ab!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-group" id="accordion">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title"  a href="#collapseOne7" data-toggle="collapse">
+                        <span class="qna">Q</span>
+                        <a href="#collapseOne7" data-toggle="collapse" data-parent="accordion"  class="panel_a">볼찌꺼기는 왜 발생 하나요?</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </h4>
+                    </div>
+                    <div id="collapseOne7" class="panel-collapse collapse in">
+                      <div class="panel-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi consequuntur labore temporibus inventore atque fugiat pariatur quam at praesentium dignissimos amet distinctio culpa sint quas dolore sequi, reprehenderit dolor esse
+                        ullam? Unde atque mollitia quasi recusandae iusto deleniti perferendis in qui omnis eaque, quaerat ratione ullam nesciunt rem facilis aliquid dolor? Laudantium tenetur doloribus quasi blanditiis. Ratione perspiciatis culpa repudiandae
+                        ea repellendus deleniti ipsum deserunt, sit quis quisquam iusto laborum distinctio, magnam totam id amet excepturi quas doloremque eaque architecto dicta eum perferendis. Earum sed dicta expedita distinctio deleniti porro et quia
+                        ducimus! Quisquam quae blanditiis labore quaerat reprehenderit hic harum dolore saepe consectetur laudantium molestiae, quibusdam consequatur? Quo illo cumque aperiam iste voluptatibus voluptatem provident, quidem, temporibus eius
+                        officiis et deserunt at dolorum? Et iste laborum facere consequatur delectus! Similique a fuga saepe laborum ea voluptas maiores iusto, nostrum molestiae, corrupti perspiciatis eaque libero nulla ut asperiores ab!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-group" id="accordion">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title"  a href="#collapseOne8" data-toggle="collapse">
+                        <span class="qna">Q</span>
+                        <a href="#collapseOne8" data-toggle="collapse" data-parent="accordion"  class="panel_a">잉크 지움 / 세척 방법 문의</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </h4>
+                    </div>
+                    <div id="collapseOne8" class="panel-collapse collapse in">
+                      <div class="panel-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi consequuntur labore temporibus inventore atque fugiat pariatur quam at praesentium dignissimos amet distinctio culpa sint quas dolore sequi, reprehenderit dolor esse
+                        ullam? Unde atque mollitia quasi recusandae iusto deleniti perferendis in qui omnis eaque, quaerat ratione ullam nesciunt rem facilis aliquid dolor? Laudantium tenetur doloribus quasi blanditiis. Ratione perspiciatis culpa repudiandae
+                        ea repellendus deleniti ipsum deserunt, sit quis quisquam iusto laborum distinctio, magnam totam id amet excepturi quas doloremque eaque architecto dicta eum perferendis. Earum sed dicta expedita distinctio deleniti porro et quia
+                        ducimus! Quisquam quae blanditiis labore quaerat reprehenderit hic harum dolore saepe consectetur laudantium molestiae, quibusdam consequatur? Quo illo cumque aperiam iste voluptatibus voluptatem provident, quidem, temporibus eius
+                        officiis et deserunt at dolorum? Et iste laborum facere consequatur delectus! Similique a fuga saepe laborum ea voluptas maiores iusto, nostrum molestiae, corrupti perspiciatis eaque libero nulla ut asperiores ab!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="panel-group" id="accordion">
+                  <div class="panel panel-default">
+                    <div class="panel-heading">
+                      <h4 class="panel-title"  a href="#collapseOne9" data-toggle="collapse">
+                        <span class="qna">Q</span>
+                        <a href="#collapseOne9" data-toggle="collapse" data-parent="accordion"  class="panel_a">볼펜이 추운 겨울이 되면 잘 나오지 않는 이유는?</a>
+                        <i class="fa-solid fa-chevron-down"></i>
+                      </h4>
+                    </div>
+                    <div id="collapseOne9" class="panel-collapse collapse in">
+                      <div class="panel-body">
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo commodi consequuntur labore temporibus inventore atque fugiat pariatur quam at praesentium dignissimos amet distinctio culpa sint quas dolore sequi, reprehenderit dolor esse
+                        ullam? Unde atque mollitia quasi recusandae iusto deleniti perferendis in qui omnis eaque, quaerat ratione ullam nesciunt rem facilis aliquid dolor? Laudantium tenetur doloribus quasi blanditiis. Ratione perspiciatis culpa repudiandae
+                        ea repellendus deleniti ipsum deserunt, sit quis quisquam iusto laborum distinctio, magnam totam id amet excepturi quas doloremque eaque architecto dicta eum perferendis. Earum sed dicta expedita distinctio deleniti porro et quia
+                        ducimus! Quisquam quae blanditiis labore quaerat reprehenderit hic harum dolore saepe consectetur laudantium molestiae, quibusdam consequatur? Quo illo cumque aperiam iste voluptatibus voluptatem provident, quidem, temporibus eius
+                        officiis et deserunt at dolorum? Et iste laborum facere consequatur delectus! Similique a fuga saepe laborum ea voluptas maiores iusto, nostrum molestiae, corrupti perspiciatis eaque libero nulla ut asperiores ab!
+                      </div>
+                    </div>
+                  </div>
+                </div>
+          </div>
+          
+
+          
+            
+
+            <footer>
+              <div class="foot">
+                <div class="foot_top">
+                  <a href="#">
+                    <img src="./imgs/foot_logo.jpg" alt="">
+                  </a>
+                    <div>
+                    
+                      <a class="footint">회사소개</a>
+                      <a class="footint">개인정보방침</a>
+                      <a class="footint">이메일무단수집거부</a>
+                    
+                  </div>
+                </div>
+                <div class="line4"></div>
+
+                <div class="foot_btm">
+                  <div class="info">
+                    <div class="tit">
+                      INFO
+                    </div>
+                    <p>ADDRESS : 경기도 용인시 수지구 손곡로 17  TEL : 031-216-0153  FAX : 031-270-5154</p>
+                    <p>COPYRIGHT(C) 2017 MONAMI.CO.,LTD. ALL RIGHTS RESERVED.</p>
+                  </div>
+                  <div class="customer">
+                    <p class="center">CUSTOMER CENTER</p>
+                    <p class="tel">000-000-0000</p>
+                  </div>
+                  
+                  <div class="btn-group dropup family" >
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">FAMILY SITE <span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">모나미몰</a></li>
+                      <li><a href="#">모나르떼</a></li>
+                      <li><a href="#">모나미 컨셉스토어</a></li>
+                      <li><a href="#">주식회사 항소</a></li>
+                      <li><a href="#">모나미 스테이션</a></li>
+                      <li><a href="#">모나미 미술대회</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </footer>
+
+        </div>
+    
+
+        <script src="./js/bootstrap.min.js"></script>
+    <script>
+      
+
+      //메서드
+      $(function () {
+        $("#collapseOne").collapse("hide");
+      });
+      $(function () {
+        $("#collapseOne1").collapse("hide");
+      });
+      $(function () {
+        $("#collapseOne2").collapse("hide");
+      });
+      $(function () {
+        $("#collapseOne3").collapse("hide");
+      });
+      $(function () {
+        $("#collapseOne4").collapse("hide");
+      });
+      $(function () {
+        $("#collapseOne5").collapse("hide");
+      });
+      $(function () {
+        $("#collapseOne6").collapse("hide");
+      });
+      $(function () {
+        $("#collapseOne7").collapse("hide");
+      });
+      $(function () {
+        $("#collapseOne8").collapse("hide");
+      });
+      $(function () {
+        $("#collapseOne9").collapse("hide");
+      });
+    </script>
+  </body>
+</html>

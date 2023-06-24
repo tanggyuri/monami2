@@ -1,0 +1,512 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>MONAMI</title>
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="css/nomalize.css" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/animate.css" />
+    <link rel="stylesheet" href="css/jquery.fancybox.css" />
+    <link rel="stylesheet" href="css/style2.css">
+    <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script>
+      $(function(){
+        $("ul > li").hover (
+          function(){
+            $(this).find(".sub").slideDown(300);
+            $(this).children("a").addClass("over");
+          },
+          function(){
+            $(this).find(".sub").slideUp(300);
+            $(this).children("a").removeClass("over");
+          },
+        )
+      });
+    </script>
+  </head>
+  <body id="home" data-spy="scroll" data-target="#navbar-scroll" data-offset="50">
+        <div class="container-fluid">
+          <div class="container">
+            <nav class="navbar navbar-default navbar-fixed-top" role="navigation" id="navbar-scroll">
+              <div class="container">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-1-collapse">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#"><img class="logomo" src="./imgs/img.jpg" alt=""</a>
+                </div>
+    
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse navbar-right navbar-1-collapse b1">
+                  <ul class="nav navbar-nav">
+                    <li>
+                      <a href="map.html">모나미 소개 </a>
+                      <ul class="sub">
+                        <li><a href="#">CEO 메세지</a></li>
+                        <li><a href="#">회사정보</a></li>
+                        <li><a href="#">회사연혁</a></li>
+                        <li><a href="#">윤리강령</a></li>
+                        <li><a href="#">투자정보</a></li>
+                        <li><a href="#">CI</a></li>
+                        <li><a href="#">채용정보</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="product.html">모나미 제품 </a>
+                      <ul class="sub">
+                        <li><a href="product.html">펜</a></li>
+                        <li><a href="product.html">마카</a></li>
+                        <li><a href="product.html">형광펜</a></li>
+                        <li><a href="product.html">만년필</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#portfolio" class="newvi">NEW & VIDEO </a>
+                      <ul class="sub">
+                        <li><a href="#">보도자료</a></li>
+                        <li><a href="#">동영상자료</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="#contact">모나미 미술 </a>
+                      <ul class="sub">
+                        <li><a href="#">sub11</a></li>
+                        <li><a href="#">sub12</a></li>
+                        <li><a href="#">sub13</a></li>
+                        <li><a href="#">sub14</a></li>
+                      </ul>
+                    </li>
+                    <li>
+                      <a href="QnA.html">고객 지원 </a>
+                      <ul class="sub">
+                        <li><a href="QnA.html">자주묻는질문</a></li>
+                        <li><a href="QnA.html">문의하기</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <!-- /.navbar-collapse -->
+            </nav>
+          </div>
+          <div id="carousel-generic" class="carousel slide">
+            <!-- Indicators -->
+            <ol class="carousel-indicators">
+              <li data-target="#carousel-generic" data-slide-to="0" class="active"></li>
+              <li data-target="#carousel-generic" data-slide-to="1"></li>
+              <!-- <li data-target="#carousel-generic" data-slide-to="2"></li>
+              <li data-target="#carousel-generic" data-slide-to="3"></li> -->
+            </ol>
+    
+            <!-- Carousel items -->
+            <div class="carousel-inner">
+              <div class="item active">
+                <img src="./imgs/bgmona.png" alt="First slide" />
+              </div>
+              <div class="item">
+                <img src="./imgs/bgmona1.png" alt="Second slide" />
+              </div>
+            </div>
+            <!-- Controls -->
+            <a class="left carousel-control" href="#carousel-generic" data-slide="prev">
+              <img src="./imgs/left.png" class="control" />
+            </a>
+            <a class="right carousel-control" href="#carousel-generic" data-slide="next">
+              <img src="./imgs/right.png" class="control" />
+            </a>
+          </div>
+          </div>
+
+          <div class="box_container">
+            <div class="box_wrap wp1">
+              <div class="title">
+                <h2>
+                  NEW
+                  <br/>
+                  ARRIVALS
+                </h2>
+                <div class="line2"></div>
+                <p>가장 먼저만나는 설레는 기다림</p>
+              </div>
+
+              <div class="box_1">
+                <div class="side1">
+                <div class="box_new front">
+                  <a href="productinfo.html"><img src="imgs/md.jpg" alt=""></a>
+                </div>
+                <div class="back">
+                  <a href="productinfo.html">
+                  <h5>SHAPR</h5>
+                  <h2>그리픽스 팝 샤프</h2>
+                  <h1>+</h1>
+                  </a>
+                </div>
+                </div>
+
+                <div class="side2">
+                <div class="box_new2">
+                  <div class="front2">
+                  <a href="productinfo.html"><img src="imgs/md2.jpg" alt=""></a>
+                  </div>
+                  <div class="back2">
+                    <a href="productinfo.html">
+                    <h5>NOTE</h5>
+                  <h2>지퀀스</h2>
+                  <h1>+</h1>
+                </a>
+                  </div>
+                </div>
+                </div>
+              </div>
+
+              <div class="box_2">
+                <div class="side3">
+                <div class="box_new3 front3">
+                  <a href="productinfo.html"><img src="imgs/md3.jpg" alt=""></a>
+                </div>
+                <div class="back3">
+                  <a href="productinfo.html">
+                  <h5>HIGHLIGHTER</h5>
+                  <h2>그랑데 형광펜 604</h2>
+                  <h1>+</h1>
+              </a>
+                </div>
+                </div>
+
+                <div class="side4">
+                <div class="box_new4">
+                  <div class="front4">
+                  <a href="productinfo.html"><img src="imgs/md4.jpg" alt=""></a>
+                </div>
+                <div class="back4">
+                  <a href="productinfo.html">
+                  <h5>FOUNTAIN PEN</h5>
+                  <h2>153 아이디 만년필</h2>
+                  <h1>+</h1>
+                  </a>
+                </div>
+                </div>
+                </div>
+
+                <div class="side5">
+                <div class="box_new5">
+                  <div class="front5">
+                  <a href="productinfo.html"><img src="imgs/md5.jpg" alt=""></a>
+                  </div>
+                  <div class="back5">
+                    <a href="productinfo.html">
+                    <h5>SHAPR</h5>
+                    <h2>클리키</h2>
+                    <h1>+</h1>
+                    </a>
+                  </div>
+                </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+          <div class="btn_title wp2">
+            <h1>BEST PRODUCT</h1>
+            <div class="line"></div>
+            <h6>언제 어디서나 생활속에 함께하는 모나미</h6>
+          </div>
+          
+          <div class="btn_box wp2">
+            <button type="button" class="btn btn-default pen">펜</button>
+            <button type="button" class="btn btn-default marker">마카</button>
+            <button type="button" class="btn btn-default">형광펜</button>
+            <button type="button" class="btn btn-default">미술용품</button>
+          </div>
+
+          <div class="row rows">
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/pencil.jpg" alt="">
+              </a>
+              <p class="pencil_title">만년필</p>
+              <p class="pencil_titles">153 아이디 만년필</p>
+            </div>
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/pencil2.jpg" alt="">
+              </a>
+              <p class="pencil_title">유성볼펜</p>
+              <p class="pencil_titles">FX ZETA C3</p>
+            </div>
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/pencil3.jpg" alt="">
+              </a>
+              <p class="pencil_title">유성볼펜</p>
+              <p class="pencil_titles">제니스7</p>
+            </div>
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/pencil4.jpg" alt="">
+              </a>
+              <p class="pencil_title">만년필</p>
+              <p class="pencil_titles">153 네오 만년필 EF</p>
+            </div>
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/pencil5.jpg" alt="">
+              </a>
+              <p class="pencil_title">FX153</p>
+              <p class="pencil_titles">FX153</p>
+            </div>
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/pencil6.jpg" alt="">
+              </a>
+              <p class="pencil_title">유성볼펜</p>
+              <p class="pencil_titles">FX ZETA</p>
+            </div>
+
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/pencil7.jpg" alt="">
+              </a>
+              <p class="pencil_title">프리미엄펜</p>
+              <p class="pencil_titles">153 블랙 & 화이트</p>
+            </div>
+          </div>
+
+          <div class="row rowss">
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/product_1.jpg" alt="">
+              </a>
+              <p class="pencil_title">만년필</p>
+              <p class="pencil_titles">153 아이디 만년필</p>
+            </div>
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/product_2.jpg" alt="">
+              </a>
+              <p class="pencil_title">유성볼펜</p>
+              <p class="pencil_titles">FX ZETA C3</p>
+            </div>
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/product_3.jpg" alt="">
+              </a>
+              <p class="pencil_title">유성볼펜</p>
+              <p class="pencil_titles">제니스7</p>
+            </div>
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/product_4.jpg" alt="">
+              </a>
+              <p class="pencil_title">만년필</p>
+              <p class="pencil_titles">153 네오 만년필 EF</p>
+            </div>
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/product_5.jpg" alt="">
+              </a>
+              <p class="pencil_title">FX153</p>
+              <p class="pencil_titles">FX153</p>
+            </div>
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/product_6.jpg" alt="">
+              </a>
+              <p class="pencil_title">유성볼펜</p>
+              <p class="pencil_titles">FX ZETA</p>
+            </div>
+
+            <div class="col-md-2">
+              <a href="">
+                <img class="pencil" src="imgs/product_7.jpg" alt="">
+              </a>
+              <p class="pencil_title">프리미엄펜</p>
+              <p class="pencil_titles">153 블랙 & 화이트</p>
+            </div>
+          </div>
+
+          <div class="video">
+            <video muted autoplay loop>
+              <source src="http://dfrkkcv2hg1jc.cloudfront.net/data/video/monami_brand_web_60.mp4">
+            </video>
+          </div>
+
+          <div class="tg">
+            <div class="tgwrap">
+              <div class="news">
+                <div class="news_title">
+                  <h2>MONAMI NEWS</h2>
+                  <a href="#">MORE</a>
+                  <div class="line2"></div>
+
+                  <div class="news_list">
+                    <div class="art_img">
+                      <img src="./imgs/artmonami.jpg" alt="">
+                    </div>
+                    <div class="art">
+                      <h3>"프러스펜, 예술을 더하다" 모나미 '제2회...</h3>
+                      <h5>"프러스펜, 예술을 더하다" 모나미 "제2회 프러스펜 아트 콘테스트" 개최</h5>
+                      <h5>프러스펜3000을 활용한 '자유</h5>
+                      <h6>2023-05-31</h6>
+                    </div>
+                  </div>
+
+                  <div class="line3"></div>
+
+                  <div class="monami_new">
+                    <div class="art_new">
+                      <h6>- 모나미, 전래동화 첫 번째 시리즈 '153 단군신화' 출시</h6>
+                      <h6 class="date">2022-04-23</h6>
+                    </div>
+                    <div class="art_new">
+                      <h6>- 모나미 ‘라이브칼라 60색 틴케이스 세트’ 출시</h6>
+                      <h6 class="date2">2022-04-23</h6>
+                    </div>
+                    <div class="art_new">
+                      <h6>- 모나미X브라운, 컬래버 패키지 출시 …”브랜드 철학 직접 느껴보세..</h6>
+                      <h6 class="date3">2022-04-23</h6>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div class="inqulry">
+                <div class="tit">
+                  <h2>INQUIRY</h2>
+                  <div class="line"></div>
+                  <h5>언제나 소중한 의견에 귀 기울이겠습니다.<br>
+                    궁금한 사항은 문의하세요.</h5>
+                    <a class="tit_a">INQUIRY NOW</a>
+                </div>
+              </div>
+              <div class="blank">
+                <div class="blank_wrap">
+                  <!-- <img src="./imgs/shop_bg.png" alt=""> -->
+                  <div class="tit">
+                    <h2>매장찾기</h2>
+                    <div class="line"></div>
+                    <h5>우리동네 모나미는 어디에?<br>
+                        국민펜 모나미는 여러분 가까이 있습니다.
+                    </h5>
+                    <a class="tit_a" href="map.html">GO STORE</a>
+                    <!-- <div class="img"></div> -->
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+            <div class="thumbnails">
+              <div class="col-sm-6 col-md-3">
+                <a class="thumbnail">
+                  <img src="./imgs//fam_img1.jpg" alt="..." />
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="thumbnail">
+                  <img src="./imgs//fam_img2.jpg" alt="..." />
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="thumbnail">
+                  <img src="./imgs//fam_img3.jpg" alt="..." />
+                </a>
+              </div>
+              <div class="col-sm-6 col-md-3">
+                <a class="thumbnail">
+                  <img src="./imgs//fam_img4.jpg" alt="..." />
+                </a>
+              </div>
+            </div>
+
+            
+
+            <footer>
+              <div class="foot">
+                <div class="foot_top">
+                  <a href="#">
+                    <img src="./imgs/foot_logo.jpg" alt="">
+                  </a>
+                    <div>
+                    
+                      <a class="footint">회사소개</a>
+                      <a class="footint">개인정보방침</a>
+                      <a class="footint">이메일무단수집거부</a>
+                    
+                  </div>
+                </div>
+                <div class="line4"></div>
+
+                <div class="foot_btm">
+                  <div class="info">
+                    <div class="tit">
+                      INFO
+                    </div>
+                    <p>ADDRESS : 경기도 용인시 수지구 손곡로 17  TEL : 031-216-0153  FAX : 031-270-5154</p>
+                    <p>COPYRIGHT(C) 2017 MONAMI.CO.,LTD. ALL RIGHTS RESERVED.</p>
+                  </div>
+                  <div class="customer">
+                    <p class="center">CUSTOMER CENTER</p>
+                    <p class="tel">000-000-0000</p>
+                  </div>
+                  
+                  <div class="btn-group dropup family" >
+                    <button type="button" class="btn btn-default dropdown-toggle" data-toggle="dropdown">FAMILY SITE <span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                      <li><a href="#">모나미몰</a></li>
+                      <li><a href="#">모나르떼</a></li>
+                      <li><a href="#">모나미 컨셉스토어</a></li>
+                      <li><a href="#">주식회사 항소</a></li>
+                      <li><a href="#">모나미 스테이션</a></li>
+                      <li><a href="#">모나미 미술대회</a></li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </footer>
+
+        </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
+    <!-- <script src="js/simpleparallax.js"></script> -->
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
+    <script>
+        $(".carousel").carousel({interval:2000});
+        $(".carousel2").carousel();
+
+        $(".wp1").waypoint(
+            function(){
+            $(".wp1").addClass("animated fadeInLeft")
+        },{offset: "75%"})
+
+        $(".wp2").waypoint(
+            function(){
+            $(".wp2").addClass("animated fadeInUp")
+        },{offset: "75%"})
+
+        $(".marker").click(
+          function(){
+            $(".rows").hide();
+            $(".rowss").show();
+          }
+        )
+        $(".pen").click(
+          function(){
+            $(".rowss").hide();
+            $(".rows").show();
+          }
+        )
+
+        $(".rowss").css("display","none");
+    </script>
+  </body>
+</html>
