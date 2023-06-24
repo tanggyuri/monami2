@@ -14,19 +14,20 @@
     <link rel="stylesheet" href="css/style2.css">
     <link rel="stylesheet" href="css/style4.css">
     <script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+    <script src="js/nav.js"></script>
     <script>
-      $(function(){
-        $("ul > li").hover (
-          function(){
-            $(this).find(".sub").slideDown(300);
-            $(this).children("a").addClass("over");
-          },
-          function(){
-            $(this).find(".sub").slideUp(300);
-            $(this).children("a").removeClass("over");
-          },
-        )
-      });
+      // $(function(){
+      //   $("ul > li").hover (
+      //     function(){
+      //       $(this).find(".sub").slideDown(300);
+      //       $(this).children("a").addClass("over");
+      //     },
+      //     function(){
+      //       $(this).find(".sub").slideUp(300);
+      //       $(this).children("a").removeClass("over");
+      //     },
+      //   )
+      // });
     </script>
   </head>
   <body id="home" data-spy="scroll" data-target="#navbar-scroll" data-offset="50">
@@ -567,7 +568,12 @@
             </footer>
 
         </div>
-    
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/animatescroll.min.js"></script>
+    <!-- <script src="js/simpleparallax.js"></script> -->
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.fancybox.js"></script>
         <script>
           $(".marker").click(
           function(){
